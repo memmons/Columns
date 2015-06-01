@@ -10,6 +10,10 @@
 		D5AF856E1B1CD5CA003E699B /* Columns.h in Headers */ = {isa = PBXBuildFile; fileRef = D5AF856D1B1CD5CA003E699B /* Columns.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5AF85741B1CD5CA003E699B /* Columns.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5AF85681B1CD5CA003E699B /* Columns.framework */; };
 		D5AF857B1B1CD5CA003E699B /* ColumnsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AF857A1B1CD5CA003E699B /* ColumnsTests.swift */; };
+		D5AF85881B1CD5FE003E699B /* MEColumnConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AF85841B1CD5FE003E699B /* MEColumnConfiguration.swift */; };
+		D5AF85891B1CD5FE003E699B /* MEColumnTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AF85851B1CD5FE003E699B /* MEColumnTableViewCell.swift */; };
+		D5AF858A1B1CD5FE003E699B /* METitleValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AF85861B1CD5FE003E699B /* METitleValueView.swift */; };
+		D5AF858B1B1CD5FE003E699B /* METitleValueViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AF85871B1CD5FE003E699B /* METitleValueViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,10 @@
 		D5AF85731B1CD5CA003E699B /* ColumnsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColumnsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5AF85791B1CD5CA003E699B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5AF857A1B1CD5CA003E699B /* ColumnsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnsTests.swift; sourceTree = "<group>"; };
+		D5AF85841B1CD5FE003E699B /* MEColumnConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MEColumnConfiguration.swift; path = ../../../git/Columns/Columns/MEColumnConfiguration.swift; sourceTree = "<group>"; };
+		D5AF85851B1CD5FE003E699B /* MEColumnTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MEColumnTableViewCell.swift; path = ../../../git/Columns/Columns/MEColumnTableViewCell.swift; sourceTree = "<group>"; };
+		D5AF85861B1CD5FE003E699B /* METitleValueView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = METitleValueView.swift; path = ../../../git/Columns/Columns/METitleValueView.swift; sourceTree = "<group>"; };
+		D5AF85871B1CD5FE003E699B /* METitleValueViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = METitleValueViews.swift; path = ../../../git/Columns/Columns/METitleValueViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,10 @@
 		D5AF856A1B1CD5CA003E699B /* Columns */ = {
 			isa = PBXGroup;
 			children = (
+				D5AF85841B1CD5FE003E699B /* MEColumnConfiguration.swift */,
+				D5AF85851B1CD5FE003E699B /* MEColumnTableViewCell.swift */,
+				D5AF85861B1CD5FE003E699B /* METitleValueView.swift */,
+				D5AF85871B1CD5FE003E699B /* METitleValueViews.swift */,
 				D5AF856D1B1CD5CA003E699B /* Columns.h */,
 				D5AF856B1B1CD5CA003E699B /* Supporting Files */,
 			);
@@ -209,6 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5AF85881B1CD5FE003E699B /* MEColumnConfiguration.swift in Sources */,
+				D5AF858B1B1CD5FE003E699B /* METitleValueViews.swift in Sources */,
+				D5AF858A1B1CD5FE003E699B /* METitleValueView.swift in Sources */,
+				D5AF85891B1CD5FE003E699B /* MEColumnTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
