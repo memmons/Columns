@@ -72,7 +72,7 @@ public class MEColumnTableViewCell: UITableViewCell {
 		super.prepareForReuse()
 	}
 
-	public func configure(columns: Array<MEColumnConfiguration>, titleValueViews: METitleValueViews, isExpanded: Bool) -> () {
+	public func configure(columns: Array<MEColumnConfiguration>, titleValueViews: METitleValueViews?, isExpanded: Bool) -> () {
 		columnConfigurations = columns
 		self.titleValueViews = titleValueViews
 		self.isExpanded = isExpanded
@@ -94,7 +94,7 @@ public class MEColumnTableViewCell: UITableViewCell {
 		rightPaddingView.setTranslatesAutoresizingMaskIntoConstraints(false)
 		rightPaddingView.tag = kRightPaddingViewTag
 		rootContainerView.addSubview(rightPaddingView)
-		expandedContainerView.addSubview(titleValueViews)
+		if let titleValueViews = titleValueViews {expandedContainerView.addSubview(titleValueViews) }
 		hasUpdatedConstraints = false
 		expand(isExpanded, animated:false)
 	}

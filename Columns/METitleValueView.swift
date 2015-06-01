@@ -4,7 +4,7 @@
 //  Columns
 //
 //  Created by Michael Emmons on 5/11/15.
-//  Copyright (c) 2015 Netsmart Technologies, Inc. All rights reserved.
+//  Copyright (c) 2015 App Apps, LLC. All rights reserved.
 //
 
 import Foundation
